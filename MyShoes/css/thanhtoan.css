@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.information-user {
+    width: 30%;
+}
+
+.information-deliver {
+    float: right;
+    width: 60%;
+}
+
+.defined-user {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.address-user {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.chon-ship-payment {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.method-deliver {
+    width: 50%;
+}
+
+.method-pay {
+    width: 50%;
+}
+
+.list-product {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.import_infor {
+    height: 30px;
+    width: 100%;
+}
+
+.button_muahang {
+    background-color: brown;
+    height: 52px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: aliceblue;
+    align-items: center;
+}
+
+.button_muahang:hover {
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.mua-hang {
+    border: none;
+}

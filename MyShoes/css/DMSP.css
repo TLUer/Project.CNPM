@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#body-content {
+    width: 1150px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#timkiemtheo {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.timkiemmuc {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.theotensanpham,
+.theogia {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.theotensanpham p,
+.theogia p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.theotensanpham input,
+.theogia input {
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.theotensanpham input[type="button"] {
+    background-color: #999;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theogia input[type="text"] {
+    width: 80px;
+}
+
+.timkiem input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+#timkiemtheo::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.img-quangcao {
+    width: 1150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.sap-xep {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sap-xep select {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.danhsachsanpham {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sanpham {
+    width: calc(25% - 20px);
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 10px;
+}
+
+.sanpham:last-child {
+    margin-right: 0;
+}
+
+.sanpham:hover .avatar-san-pham {
+    transform: scale(1.05);
+}
+
+.avatar-san-pham {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.ten-san-pham {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.gia-tien {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.gia-tien strong {
+    color: #f00;
+}
+
+.gia-tien del {
+    color: #ccc;
+    margin-left: 5px;
+}
+
+.phan-tram-sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f00;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.phan-trang {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.phan-trang input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    width: 1150px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

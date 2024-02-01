@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#chitietsanpham {
+    width: 100%;
+    margin-top: 150px;
+    position: relative;
+}
+
+#chitietsanpham .hinh-anh {
+    height: 450px;
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+}
+
+#chitietsanpham .thong-tin-san-pham {
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.thong-tin-san-pham .ten-san-pham {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.gia-tinh-trang {
+    padding: 20px 0px;
+    border-top: 1px solid rgb(194, 192, 192);
+    border-bottom: 1px solid rgb(194, 192, 192);
+    height: 100px;
+}
+
+.gia-tinh-trang .gia {
+    float: left;
+    width: 300px;
+    text-align: center;
+    
+    padding-right: 30px;
+    border-right: 1px solid rgb(194, 192, 192);
+    height: 50px;
+    line-height: 50px;
+}
+
+.gia-tinh-trang .gia strong {
+    color: red;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.gia-tinh-trang .gia del {
+    
+    font-size: 17px;
+}
+
+.gia-tinh-trang .tinh-trang {
+    float: left;
+    width: 200px;
+    padding-left: 30px;
+}
+
+.tinh-trang {
+    margin-top: 5px;
+}
+
+.tinh-trang .ti-check, strong {
+    color: green;
+    
+}
+
+.tinh-trang .d1 {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.tinh-trang .ti-control-record {
+    color: black;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.chon-size {
+    margin-top: 30px;
+    
+}
+
+.chon-size .loai-size {
+    margin-top: 10px;
+    height: 30px;
+    width: 50px;
+    margin-right: 20px;
+    background: white;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.chon-size .loai-size:hover {
+    border: 1px solid black;
+}
+
+.chon-size .huong-dan {
+    margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mua-so-luong {
+    margin-top: 20px;
+}
+
+.chon-so-luong input {
+    height: 55px;
+    width: 40px;
+    text-align: center;
+    float: left;
+}
+
+.chon-so-luong .nut-tang-giam {
+    float: left;
+    width: 25px;
+    
+}
+
+.chon-so-luong .tang, .giam {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 3px;
+}
+
+.chon-so-luong .tang:hover, .giam:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.chon-so-luong {
+    float: left;
+    width: 71px;
+}
+
+.them-gio-hang {
+    float: left;
+    height: 52px;
+    width: 260px;
+    font-size: 20px;
+    border: 1px solid gray;
+    line-height: 50px;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.mua-ngay {
+    float: left;
+    height: 52px;
+    width: 255px;
+    font-size: 20px;
+    border: 1px solid gray;
+    line-height: 50px;
+    text-align: center;
+    background-color: red;
+    color: aliceblue;
+}
+
+.them-gio-hang:hover, .mua-ngay:hover {
+    cursor: pointer;
+}
+
+.anh-quang-cao {
+    margin-top: 30px;
+}
+
+.anh-quang-cao img{
+    height: 70px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 1170px;
+}
+
+.mo-ta-san-pham {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 1150px;
+    padding: 0px 20px;
+}
+
+.mo-ta-san-pham .mo-ta {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.dong-1, .dong-2, .dong-3, .dong-4 {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.chu-do {
+    margin-top: 30px;
+    color: red;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.lien-he p {
+    margin-bottom: 10px;
+}
+
+.hinh-anh-mo-ta {
+    margin-top: 20px;
+}
+
+.huong-dan-chon-size {
+    position: fixed;
+    height: 650px;
+    width: 500px;
+    top: 5%;
+    left: 28%;
+    display: none;
+    background-color: aliceblue;
+    
+}
+
+.huong-dan-chon-size .dong{
+    float: right;
+}
+
+.huong-dan-chon-size .dong .ti-close {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.huong-dan-chon-size .dong .ti-close:hover {
+    color: red;
+}
+
+.mo-ta-san-pham > img {
+    width: 1000px;
+    height: 700px;
+}
